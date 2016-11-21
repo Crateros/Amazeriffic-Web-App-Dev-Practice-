@@ -1,0 +1,107 @@
+body {
+    background: #f9e933;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 100%;
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+
+header {
+    background: white;
+    overflow: auto;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    width: 570px;
+    font-size: 400%;
+    font-style: italic;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+header nav {
+    float: right;
+    width: 285px;
+}
+
+main {
+    background: white;
+    overflow: auto;
+}
+
+main .left {
+    float: left;
+    width: 570px;
+}
+
+main .right {
+    float: right;
+    width: 285px;
+}
+
+img {
+  size: 80%;
+}
+
+footer .left {
+    float: left;
+    width: 570px;
+    margin-top: 35px;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+    margin-top: 35px;
+}
+
+footer .sub-left {
+  float: left;
+}
+
+footer .sub-right {
+  float: right;
+  position: relative;
+  margin-right: 100px;
+}
+
+footer p:first-of-type {
+  font-weight: bolder;
+  font-size: 125%;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
