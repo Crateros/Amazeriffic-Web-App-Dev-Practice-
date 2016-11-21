@@ -1,0 +1,49 @@
+body {
+  background: lightcyan;
+  width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: maroon;
+  text-align: center;;
+}
+
+p {
+  margin: 0;
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+  font-family: 'Delius Unicase', sans-serif;
+  font-size: 14;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 500px;
+  margin: auto;
+}
+
+nav {
+  border: 3px solid black;
+  width: 200px;
+  float: left;
+  margin-top: 180px;
+}
+
+footer {
+  clear: left;
+  margin-top: 400px;
+}
